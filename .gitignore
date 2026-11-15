@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Pruebas unitarias y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Chequeo de tipos y linters
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyre/
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Notebooks y experimentos temporales
+.ipynb_checkpoints/
+*.tmp
+*.bak
+*.log
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Artefactos de datos generados en pruebas locales (descomentar si no se desean versionar)
+# data/*.csv
+# data/*.json

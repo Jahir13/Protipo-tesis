@@ -1,0 +1,64 @@
+{
+    "role": "Evaluador",
+    "cwe_reference": "CWE-330: Use of Insufficiently Random Values",
+    "algorithm": "python_random_randint",
+    "token_length": 4,
+    "sample_size": 100,
+    "initial_seed": 1730680000,
+    "generation_date": "2026-11-04T00:58:16.687685+00:00",
+    "generation_unix_timestamp": 1793753896,
+    "dataset_file": "C:/Users/jahir/Tesis/Implementacion de tesis/data/dataset_otp.csv",
+    "dataset_sha256": "6b12207443c13e4fd8365b0d5fd536554e03d682cb0b52d18a79a1aa053730d0",
+    "generator_details": {
+        "algorithm": "python_random_randint",
+        "digits": 4,
+        "seed": 1730680000,
+        "prng_family": "Mersenne Twister (MT19937)",
+        "cwe_id": "CWE-330",
+        "seed_mode": "unix_time",
+        "range_min": 0,
+        "range_max": 9999,
+        "zero_padded": true
+    },
+    "preliminary_entropy_metrics": {
+        "sample_size": 100,
+        "token_length": 4,
+        "unique_tokens": 99,
+        "token_shannon_entropy_bits": 6.623856,
+        "max_theoretical_token_entropy_bits": 13.287712,
+        "max_sample_entropy_bits": 6.643856,
+        "digit_shannon_entropy_bits": 3.300884,
+        "max_theoretical_digit_entropy_bits": 3.321928,
+        "digit_efficiency": 0.993665,
+        "positional_entropy_bits": [
+            3.274986,
+            3.252784,
+            3.193063,
+            3.262244
+        ],
+        "digit_counts": {
+            "0": 40,
+            "1": 37,
+            "2": 30,
+            "3": 55,
+            "4": 39,
+            "5": 49,
+            "6": 43,
+            "7": 35,
+            "8": 35,
+            "9": 37
+        },
+        "digit_frequencies": {
+            "0": 0.1,
+            "1": 0.0925,
+            "2": 0.075,
+            "3": 0.1375,
+            "4": 0.0975,
+            "5": 0.1225,
+            "6": 0.1075,
+            "7": 0.0875,
+            "8": 0.0875,
+            "9": 0.0925
+        }
+    }
+}

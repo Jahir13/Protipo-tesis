@@ -1,0 +1,7 @@
+# El prototipo utiliza exclusivamente la librería estándar de Python 3.10+
+# (random, time, csv, json, math, hashlib, dataclasses, pathlib, typing, argparse).
+# No requiere dependencias externas para su ejecución base.
+#
+# Dependencias opcionales para pruebas unitarias y formateo de código:
+pytest>=8.0.0
+
